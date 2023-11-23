@@ -9,3 +9,6 @@ for (int i = 0; i < list.Length; i++)
         newList.Add(list[i]);
     }
 }
+
+Console.Write($"[\"{string.Join("\", \"",list)}\"] -> ");
+Console.Write($"[\"{string.Join("\", \"",newList)}\"]");
